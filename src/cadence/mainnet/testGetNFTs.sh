@@ -311,6 +311,16 @@ MatrixWorldAssetsNFT)
   flow scripts execute getNFTs.cdc --args-json '[{ "type": "Address", "value": "0x70f9008528cf2a10" }, { "type": "Dictionary", "value": [{ "key": { "type": "String", "value": "MatrixWorldAssetsNFT" }, "value": { "type": "Array", "value": [{ "type": "UInt64", "value": "306" }] } }] }]' --network mainnet
   ;;
 
+GoatedGoats)
+  echo "GoatedGoats"
+  flow scripts execute getNFTs.cdc --args-json '[{ "type": "Address", "value": "0x4bcda1de73a17d95" }, { "type": "Dictionary", "value": [{ "key": { "type": "String", "value": "GoatedGoats" }, "value": { "type": "Array", "value": [{ "type": "UInt64", "value": "4471" }] } }] }]' --network mainnet
+  ;;
+
+GoatedGoatsTrait)
+  echo "GoatedGoatsTrait"
+  flow scripts execute getNFTs.cdc --args-json '[{ "type": "Address", "value": "0x4bcda1de73a17d95" }, { "type": "Dictionary", "value": [{ "key": { "type": "String", "value": "GoatedGoatsTrait" }, "value": { "type": "Array", "value": [{ "type": "UInt64", "value": "22256" }] } }] }]' --network mainnet
+  ;;
+
 *)
   echo "Unknown contract"
   ;;
